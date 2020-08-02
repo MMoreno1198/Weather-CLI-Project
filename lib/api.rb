@@ -5,7 +5,7 @@ class API
 
 def self.get_request
 
-  response = HTTParty.get("https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid=#{@@key}")
+  @api_param = HTTParty.get("https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid=#{@@key}")
 
 end
 end
