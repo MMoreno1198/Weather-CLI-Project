@@ -16,11 +16,10 @@ class Cli
       puts "       _|  _|        _|_|_|    _|_|_|      _|_|  _|    _|    _|_|_|  _|         ".colorize(:yellow)
       puts "                                                                                ".colorize(:yellow)
 
-        puts "Enter the Name of a City"
 
-        puts "+-+-+-+-+-+ +-+-+-+ +-+-+-+-+ +-+-+ +-+ +-+-+-+-+".colorize(:green)
-        puts "      |Enter| |the| |Name| |of| |a| |City|       ".colorize(:green)
-        puts "+-+-+-+-+-+ +-+-+-+ +-+-+-+-+ +-+-+ +-+ +-+-+-+-+".colorize(:green)
+        puts "           +-+-+-+-+-+ +-+-+-+ +-+-+-+-+ +-+-+ +-+ +-+-+-+-+                  ".colorize(:green)
+        puts "                 |Enter| |the| |Name| |of| |a| |City:|                        ".colorize(:green)
+        puts "           +-+-+-+-+-+ +-+-+-+ +-+-+-+-+ +-+-+ +-+ +-+-+-+-+                  ".colorize(:green)
 
         puts " "
 
