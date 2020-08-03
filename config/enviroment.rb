@@ -1,8 +1,10 @@
-require ('pry')
-require ('httparty')
-require ('nokogiri')
-require ('colorize')
+require 'pry'
+require 'colorize'
+require 'httparty'
+require 'json'
 
-require_relative '../lib/api.rb'
-require_relative '../lib/cli.rb'
-require_relative '../lib/space.rb'
+
+
+require_relative '../lib/weather'
+require_relative '../lib/api'
+require_relative '../lib/feature'
